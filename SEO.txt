@@ -1,0 +1,19 @@
+index.html:
+
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica 
+en pocas palabras el contenido de mi sitio: “Sitio web de restaurante con mucha variedad de comidas y bebidas".
+
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a 
+todas las páginas de mi sitio: "COMIDA, BEBIDA, POSTRES, PARRILLA".
+
+Encabezado: para el encabezado del h1 utilicé el texto “MI RESTAURANTE”.
+
+------------------------------------------------------------------------------------------------------------------
+pagina1.html:
+
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica 
+en pocas palabras el contenido la pagina actual: “Sección de fotos de los platos típicos del restaurante".
+
+Palabras clave: ademas de las del index se agregó: "FOTOS, PANCHO, CERVEZA, PIZZA, CARNE, ENSALADA, HAMBURGUESA".
+
+Encabezado: para el encabezado del h1 utilicé el texto “MI RESTAURANTE”.

@@ -1,5 +1,8 @@
 main{
-    h1{
+    h2{
         @include posicionar (45%, 45%);
+    }
+    p{
+        @include posicionar (50%, 10%);
     }
 }
