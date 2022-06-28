@@ -1,0 +1,5 @@
+@mixin posicionar ($vertical, $horizontal) {
+    position: absolute;
+    left: $horizontal;
+    top: $vertical;
+}

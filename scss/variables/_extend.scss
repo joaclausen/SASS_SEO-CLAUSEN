@@ -1,0 +1,14 @@
+%estiloHeader{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%footerAbajo{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   
+    background-color: $negro;
+}

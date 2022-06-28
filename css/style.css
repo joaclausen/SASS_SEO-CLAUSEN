@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.header {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: black; }
+
+body {
+  background-color: turquoise; }
+
+.header__logo {
+  zoom: 10%;
+  margin-left: 1rem; }
+
+.header__ul {
+  display: flex;
+  list-style: none; }
+  .header__ul li {
+    margin: 1rem;
+    font-weight: bold; }
+  .header__ul--active {
+    color: green; }
+
+main h1 {
+  position: absolute;
+  left: 45%;
+  top: 45%; }
+
+footer p {
+  color: white; }
