@@ -1,8 +1,62 @@
-main{
+.main{
     h2{
         @include posicionar (45%, 45%);
     }
     p{
         @include posicionar (50%, 10%);
+    }
+    &__container-grid{
+        display: grid;
+        margin: 40px 0 40px 0;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(3, 200px);
+        gap: 1px 1px;
+        text-align: center;
+        justify-content: stretch;
+        font-size: 1.5rem;
+        grid-template-areas: "Dos Dos Tres Cuatro"
+                             "Cinco Seis Siete Cuatro";
+    }
+    &__Tres{
+        grid-area: Tres;
+        background-image: url(https://cdn.cienradios.com/wp-content/uploads/sites/13/2020/04/Panchos-argentinos-nota.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;
+    }
+    &__Dos{
+        grid-area: Dos;
+        background-image: url(https://www.recetassinlactosa.com/wp-content/uploads/2022/02/Ensalada-Cesar.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;
+    }
+    &__Cuatro{
+        grid-area: Cuatro;
+        background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/N5EPKUWMIVH4RCPNDM7OP5OKQQ.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;
+    }
+    &__Cinco{
+        grid-area: Cinco;
+        background-image: url(https://www.recetas-argentinas.com/base/stock/Recipe/28-image/28-image_web.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;
+    }
+    &__Seis{
+        grid-area: Seis;
+        background-image: url(https://grannaria.com/wp-content/uploads/2018/03/334-scaled.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;
+    }
+    &__Siete{
+        grid-area: Siete;
+        background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/03/40/08/5f/bardpizzas.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;
     }
 }

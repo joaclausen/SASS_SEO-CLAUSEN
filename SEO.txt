@@ -14,6 +14,6 @@ pagina1.html:
 Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica 
 en pocas palabras el contenido la pagina actual: “Sección de fotos de los platos típicos del restaurante".
 
-Palabras clave: ademas de las del index se agregó: "FOTOS, PANCHO, CERVEZA, PIZZA, CARNE, ENSALADA, HAMBURGUESA".
+Palabras clave: ademas de las del index se agregó: "FOTOS, PANCHO, CERVEZA, PIZZA, ENSALADA, MILANESA, HAMBURGUESA".
 
 Encabezado: para el encabezado del h1 utilicé el texto “MI RESTAURANTE”.
